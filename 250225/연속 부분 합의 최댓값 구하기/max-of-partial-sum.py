@@ -18,7 +18,7 @@ dp = [0] * (n+1)
 def initialize():
     for i in range(1, n+1):
         dp[i] = INT_MIN
-    dp[1] = 2 * arr[1]
+    dp[1] = arr[1]
 
 initialize()
 
