@@ -8,7 +8,7 @@ if a < 11:
     print(-1)
 elif a == 11 and b < 11:
     print(-1)
-elif a == 11 and b == 11 and c < 11:
+elif a == 11 and b == 11 and c <= 11:
     print(-1)
 
 while True:
