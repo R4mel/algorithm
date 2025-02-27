@@ -5,7 +5,7 @@ commands = [tuple(map(int, input().split())) for _ in range(k)]
 arr = [0] * n
 
 for i in range(k):
-    for j in range(commands[i][0], commands[i][1]+1):
-        arr[j] += 1
+    for j in range(commands[i][0], commands[i][1] + 1):
+        arr[j-1] += 1
 
 print(max(arr))
