@@ -6,10 +6,13 @@ count = 0
 
 if a < 11:
     print(-1)
+    exit()
 elif a == 11 and b < 11:
     print(-1)
-elif a == 11 and b == 11 and c <= 11:
+    exit()
+elif a == 11 and b == 11 and c < 11:
     print(-1)
+    exit()
 
 while True:
     if a < 11:
