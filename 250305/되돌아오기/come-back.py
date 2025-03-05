@@ -27,12 +27,8 @@ for i in range(n):
     for _ in range(dis):
         x, y = x + dx[move_dir], y + dy[move_dir]
 
+        cnt += 1
+
         if x == 0 and y == 0:
+            print(cnt)
             break
-
-        if not in_range(x, y):
-            continue
-        else:
-            cnt += 1
-
-print(cnt)
