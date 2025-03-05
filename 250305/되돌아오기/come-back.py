@@ -24,7 +24,7 @@ for i in range(n):
     
     move_dir = mapper[direction]
 
-    for _ in range(n):
+    for _ in range(dis):
         x, y = x + dx[move_dir], y + dy[move_dir]
 
         if x == 0 and y == 0:
