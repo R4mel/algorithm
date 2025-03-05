@@ -16,6 +16,8 @@ dy = [0, 0, -1, 1]
 
 x = 0
 y = 0
+
+answer = -1
 cnt = 0
 
 for i in range(n):
@@ -30,5 +32,7 @@ for i in range(n):
         cnt += 1
 
         if x == 0 and y == 0:
-            print(cnt)
+            answer = cnt
             break
+
+print(answer)
