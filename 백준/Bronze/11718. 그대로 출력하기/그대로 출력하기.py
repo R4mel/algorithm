@@ -1,6 +1,3 @@
-try:
-    while True:
-        line = input()
-        print(line)
-except EOFError:
-    pass
+import sys
+
+print(sys.stdin.read(), end="")
